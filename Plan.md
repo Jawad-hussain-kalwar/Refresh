@@ -21,12 +21,12 @@ flowchart TB
 1.1. **Repository Scan**
    * Scan source repository for files, dependencies, and structure
    * Generate inventory of components to migrate
-   * Output: `inventory.json`
+   * Output: `inventory.md`
 
 1.2. **Dependency Analysis**
    * Extract all dependencies and their versions
    * Map source dependencies to target equivalents
-   * Output: `dependency-mapping.json`
+   * Output: `dependency-mapping.md`
 
 ---
 
@@ -36,12 +36,12 @@ flowchart TB
 2.1. **Target Platform Definition**
    * Define target language/framework versions
    * Set up target project structure templates
-   * Output: `target-config.yml`
+   * Output: `target-config.md`
 
 2.2. **Translation Rules**
    * Create mapping rules (source patterns → target patterns)
    * Define code transformation recipes
-   * Output: `translation-rules.yml`
+   * Output: `translation-rules.md`
 
 ---
 
