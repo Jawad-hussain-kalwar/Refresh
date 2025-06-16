@@ -1,0 +1,181 @@
+# Cursor Ignore File
+# This file tells Cursor which files and directories to ignore when analyzing your codebase
+# This improves performance and prevents irrelevant files from being included in AI context
+
+# Python compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+.env/
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.python-version
+
+# Package management
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+*.egg
+MANIFEST
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+[Tt]humbs.db
+Thumbs.db
+$RECYCLE.BIN/
+*.lnk
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
+*.orig
+*.log
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Large data files and models (common in ML projects)
+*.pkl
+*.pickle
+*.h5
+*.hdf5
+*.joblib
+*.parquet
+*.csv
+*.json
+*.xml
+*.yaml
+*.yml
+
+# Common large directories
+datasets/
+logs/
+wandb/
+mlruns/
+.mlflow/
+node_modules/
+
+# Documentation build files
+docs/_build/
+/site
+htmlcov/
+
+# Type checking and static analysis
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+
+# Environment files (may contain sensitive data)
+.env
+.env.*
+*credentials*.json
+*service-account*.json
+config.local.py
+settings.local.py
+
+# Version control
+.git/
+.gitignore
+.gitattributes
+
+
+
+
+# Binary files
+*.bin
+*.exe
+*.dll
+*.dylib
+
+# Lock files
+package-lock.json
+yarn.lock
+Pipfile.lock
+poetry.lock
+pdm.lock
+
+# Caches and temporary IDE files
+.cache/
+.temp/
+.tmp/
+.cursor/
+.vscode-test/
+
+# Jupyter and IPython
+.jupyter/
+.ipython/
+profile_default/
+ipython_config.py
+
+# Testing
+.hypothesis/
+.pytest_cache/
+htmlcov/
+.coverage
+coverage.xml
+*.cover
+*.py,cover
+cover/
+
+# Linting
+.ruff_cache/
+.flake8
+.pylintrc
+.bandit
+
+# Documentation
+sphinx/
+docs/
+*.rst
+
+# Notebooks (if you want to exclude them from AI analysis)
+# *.ipynb
+
+# Specific to certain frameworks
+# Django
+db.sqlite3
+db.sqlite3-journal
+local_settings.py
+# Flask
+instance/
+.webassets-cache
+# Scrapy
+.scrapy
